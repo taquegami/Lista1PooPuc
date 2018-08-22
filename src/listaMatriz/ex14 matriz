@@ -1,0 +1,27 @@
+/*
+  * Disciplina: Pogramação Orientada a Objetos
+ * Aluno: Pedro Eduardo B. Taquegami 
+ */
+package ex.matirzes.pkg14;
+
+
+public class ExMatirzes14 {
+
+  
+   
+    public static void main(String[] args) {
+       
+        int m [][] = {{1,3,3,3,3,2}, {3, 1, 3, 3, 2, 3}, {3, 3, 1, 2, 3, 3}, {3, 3, 2, 1, 3, 3}, {3, 2, 3, 3, 1, 3}, {2, 3, 3, 3, 3, 1}};
+        
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                System.out.print(m[i][j] + "  ");
+            }
+            System.out.println("\n");
+        }
+        
+            
+        } 
+        
+    
+}
